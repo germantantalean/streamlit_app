@@ -1,15 +1,9 @@
-#import streamlit as st
-#import pandas as pd
-#import numpy as np
-#n = st.slider("n", 5,100, step=1)
-#chart_data = pd.DataFrame(np.random.randn(n),columns=['data'])
-#3st.line_chart(chart_data)
-#---------------------------------
-
+#!/usr/bin/env python
+# coding: utf-8
+# In[ ]:
 # INSTALAMOS LAS LIBREIRAS NECESARIAS
 import pandas as pd
 import streamlit as st 
-import numpy as np
 import plotly.express as px
 #from PIL import Image
 
@@ -89,3 +83,11 @@ bar_chart = px.bar(df_agrupado,
             template = 'plotly_white')
 
 st.plotly_chart(bar_chart) # mostrar grafico
+
+
+
+
+
+
+
+
